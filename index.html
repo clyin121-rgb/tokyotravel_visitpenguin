@@ -47,6 +47,7 @@
     .japanese-note{margin-top:15px;border:var(--line);border-radius:14px;background:var(--butter);overflow:hidden}.japanese-note summary{cursor:pointer;min-height:44px;padding:12px 15px;font-size:13px;line-height:1.7}.japanese-note summary::marker{color:var(--maple)}.japanese-note summary:focus-visible{outline:3px solid var(--maple);outline-offset:-5px;border-radius:12px}.japanese-note-purpose{display:block;margin:3px 0 0 17px;font-size:11px;color:var(--muted)}.japanese-note[open] summary{border-bottom:1px dashed #B7AD9C}.japanese-note-body{padding:4px 15px 15px}.japanese-note-body p{margin:13px 0 0;font-size:14px;line-height:2;overflow-wrap:anywhere}
     .return-guide{margin:24px 22px 0;border:var(--line);border-radius:16px;background:var(--paper);overflow:hidden}.return-guide summary{cursor:pointer;min-height:44px;padding:13px 16px;background:var(--sage);font-size:14px;line-height:1.7}.return-guide summary::marker{color:var(--ink)}.return-guide summary:focus-visible{outline:3px solid var(--maple);outline-offset:-5px;border-radius:13px}.return-guide-body{padding:0 16px 16px}.return-guide-body>p{font-size:12px;line-height:1.9;margin:13px 0}.return-guide-body>h5{font-size:13px;font-weight:400;margin:18px 0 8px}.return-bus-times{display:flex;flex-wrap:wrap;gap:7px;list-style:none;padding:0;margin:10px 0 16px}.return-bus-times li{padding:4px 10px;border:1.5px solid var(--ink);border-radius:8px;background:var(--butter);font-size:13px}.return-table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:12px;text-align:left}.return-table caption{caption-side:top;text-align:left;font-size:13px;padding:0 0 10px;line-height:1.8}.return-table th,.return-table td{padding:10px 4px;border-bottom:1px dashed #CABCAB;vertical-align:top;overflow-wrap:anywhere}.return-table th{font-size:11px;font-weight:400;color:var(--muted)}.return-table td{font-variant-numeric:tabular-nums}.return-guide-body>.return-caution{padding:10px 12px;background:var(--peach);border-radius:10px;font-size:11px}.return-guide-body>.return-source-note{font-size:10px;color:var(--muted);margin-bottom:0}@media(max-width:700px){.return-guide{margin:20px 13px 0}.return-guide summary{font-size:13px;padding:12px}.return-guide-body{padding:0 12px 13px}.return-table{font-size:11px}.return-table th{font-size:10px}}
     .return-laview-options{margin-top:16px}.return-guide .return-laview-options>summary{padding:10px 12px;min-height:44px;font-size:12px;line-height:1.8;background:var(--butter);border:1.5px solid var(--ink);border-radius:10px}.return-laview-options>.return-table{margin-top:14px}.return-laview-options>p{font-size:12px;line-height:1.9;margin:13px 0}.return-guide .return-caution{padding:10px 12px;background:var(--peach);border-radius:10px;font-size:11px}
+    .outfit-card{background:#F7F2E5}.outfit-location{font-size:12px;color:var(--green);line-height:1.8;margin:8px 0}.outfit-status{font-size:11px;line-height:1.8;color:var(--muted);margin:12px 0 0}.outfit-status a{color:var(--green)}.outfit-rain{font-size:12px;line-height:1.9;margin-top:12px}.outfit-rain summary{cursor:pointer;min-height:44px;padding:8px 0;text-decoration:underline;text-underline-offset:3px}.outfit-rain p{margin:0 0 8px}.packing-guides{padding-top:0}.packing-guides .day-notes{margin:0 0 18px}.packing-guides h3{font-size:16px;margin:0 0 12px}.packing-guides p{font-size:13px;line-height:1.9}.packing-guides a{overflow-wrap:anywhere}.packing-guides>details>summary{cursor:pointer;min-height:44px;padding:8px 0;line-height:1.9}.packing-guides .guide-status{font-size:11px;color:var(--muted)}
   </style>
 </head>
 <body>
@@ -201,7 +202,7 @@
     <div class="preparation wrap">
       <section id="checklist" class="section" aria-labelledby="checklist-title">
         <div class="section-heading"><div class="heading-group"><span class="heading-icon yellow"><svg class="icon" aria-hidden="true"><use href="#i-checklist"/></svg></span><div><h2 id="checklist-title">出發前的小清單</h2><span class="section-kicker">A LITTLE CHECKLIST</span></div></div></div>
-        <div class="checklist-card"><div class="checklist-top"><div class="progress-meta"><span>一件一件，準備好出發</span><strong id="check-count" aria-live="polite">0 / 14 完成</strong></div><div class="progress-track" role="progressbar" aria-label="行前準備完成度" aria-valuemin="0" aria-valuemax="14" aria-valuenow="0" id="check-progress"><div class="progress-fill" id="progress-fill"></div></div></div><div class="check-filters" role="group" aria-label="篩選待辦清單"><button type="button" class="check-filter" data-filter="all" aria-pressed="true">全部</button><button type="button" class="check-filter" data-filter="prepare" aria-pressed="false">旅前準備</button><button type="button" class="check-filter" data-filter="packing" aria-pressed="false">行李口袋</button></div><ul class="checklist" id="check-items"></ul><p class="storage-warning" id="storage-warning" hidden>目前無法儲存；勾選僅保留在這次開啟的頁面。</p><div class="checklist-bottom"><span id="save-caption">勾選會保存在這個瀏覽器裡</span><button type="button" class="reset-checks" id="reset-checks">清除勾選</button></div></div>
+        <div class="checklist-card"><div class="checklist-top"><div class="progress-meta"><span>一件一件，準備好出發</span><strong id="check-count" aria-live="polite">0 / 25 完成</strong></div><div class="progress-track" role="progressbar" aria-label="行前準備完成度" aria-valuemin="0" aria-valuemax="25" aria-valuenow="0" id="check-progress"><div class="progress-fill" id="progress-fill"></div></div></div><div class="check-filters" role="group" aria-label="篩選待辦清單"><button type="button" class="check-filter" data-filter="all" aria-pressed="true">全部</button><button type="button" class="check-filter" data-filter="prepare" aria-pressed="false">旅前準備</button><button type="button" class="check-filter" data-filter="packing" aria-pressed="false">行李口袋</button></div><ul class="checklist" id="check-items"></ul><p class="storage-warning" id="storage-warning" hidden>目前無法儲存；勾選僅保留在這次開啟的頁面。</p><div class="checklist-bottom"><span id="save-caption">勾選會保存在這個瀏覽器裡</span><button type="button" class="reset-checks" id="reset-checks">清除勾選</button></div></div>
       </section>
       <section id="stay" class="section" aria-labelledby="stay-title">
         <div class="section-heading"><div class="heading-group"><span class="heading-icon"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg></span><div><h2 id="stay-title">東京企鵝的家</h2><span class="section-kicker">OUR COZY STAY</span></div></div></div>
@@ -209,6 +210,12 @@
         <div class="hotel-hint"><svg class="icon" aria-hidden="true"><use href="#i-heart"/></svg><p>出發前，把企鵝家的地址與聯絡方式存進手機。<br>回到家，今天的冒險就圓滿了。</p></div>
       </section>
     </div>
+    <section id="packing-guide" class="section wrap packing-guides" aria-labelledby="packing-guide-title">
+      <div class="section-heading"><div class="heading-group"><span class="heading-icon sage"><svg class="icon" aria-hidden="true"><use href="#i-bag"/></svg></span><div><h2 id="packing-guide-title">這次怎麼打包</h2><span class="section-kicker">LAYERS & LITTLE REMINDERS</span></div></div></div>
+      <article class="day-notes outfit-card"><h3>5天4夜，每人一份的衣物小抄</h3><p>上面的待辦清單已列入衣物數量，包含出發當天穿的那一套。以「薄長袖 → 薄針織或刷毛 → 防風外套」三層組合，飯能湖邊或怕冷時再加可壓縮薄羽絨。外套、中層可重複穿；若不打算洗衣或容易流汗，上衣再多帶1件。</p><ul><li><strong>先帶能拆開的層次：</strong>不必每天一套厚毛衣；厚大衣是否需要，等出發前確認預報再決定。</li><li><strong>看氣溫再調整：</strong>若白天接近20°C且有陽光，可先脫中層；若外出時約12°C以下、風大或有雨，就加中層與保暖背心。這是穿衣參考門檻，不是本趟逐日預報。</li><li><strong>隨身小包：</strong>外套、圍巾、傘、藥品與一件換洗上衣；搭機時別全數托運。</li><li><strong>空出伴手禮的位置：</strong>鞋子以腳上那雙熟悉好走的為主，衣物用可壓縮袋收納；11/10買完不必為放不下重新大搬行李。</li></ul><p class="outfit-status">目前先按活動安排分層，尚未填入未核實的逐日高低溫或降雨機率。請於11/6出發前及每天出門前再看預報；11/8另看飯能所在的埼玉，不只看東京都心。</p></article>
+      <article class="day-notes"><h3>已查到的旅途中提醒</h3><ul><li><strong>11/8飯能祭：</strong>官方仍公告部分路線巴士異動。東飯能免費接駁先到先上、無需車票；若下雨也要預留走回站牌與候車時間，不把回程當成隨到隨搭。 <a href="https://metsa-hanno.com/news/information/48392/" target="_blank" rel="noopener noreferrer">祭典交通公告 ↗</a> · <a href="https://metsa-hanno.com/event/38767/" target="_blank" rel="noopener noreferrer">免費接駁與站位 ↗</a></li><li><strong>11/10伴手禮：</strong>一番街官方現行櫃位為「岡田謹製 茶織屋」。平日09:30是開店時間；17:00是否有目標品項、是否需先排隊，仍在當天先向櫃位確認。 <a href="https://www.tokyoeki-1bangai.co.jp/shop/detail/?cd=000266" target="_blank" rel="noopener noreferrer">現行店舖資訊 ↗</a></li></ul><p class="guide-status">以上官方公告重新核對：2026/11/5。交通臨時異動以當日公告優先。</p></article>
+      <details class="day-notes"><summary>出發前再查的官方規定與入口</summary><p>以下最新細則尚待核對，請出發前透過官方入口確認2026年11月適用的規定。</p><ul><li><strong>入境填報：</strong><a href="https://services.digital.go.jp/zh-cmn-hant/visit-japan-web/" target="_blank" rel="noopener noreferrer">Visit Japan Web官方說明 ↗</a>。護照、地址、入境QR與個人填報資料僅存私人手機，不貼到公開手帖。</li><li><strong>日本購物退稅：</strong><a href="https://www.nta.go.jp/publication/pamph/shohi/menzei/index.htm" target="_blank" rel="noopener noreferrer">日本國稅廳免稅制度 ↗</a>。這趟在2026年11月，出發前向店家確認當期辦理方式，保留護照與收據，另留出境辦理時間。</li><li><strong>行動電源與行李：</strong><a href="https://www.starlux-airlines.com/zh-TW" target="_blank" rel="noopener noreferrer">星宇航空官方網站 ↗</a>。出發前按JX800／JX801核對行動電源Wh、數量、放置及機上使用規定，也確認伴手禮與備用包的重量。</li><li><strong>帶食品回台：</strong><a href="https://www.aphia.gov.tw/" target="_blank" rel="noopener noreferrer">台灣防檢署 ↗</a>。先查想買的食品能否入境，尤其肉類、生鮮果蔬；不確定的品項先問再買。</li></ul></details>
+    </section>
   </main>
   <section class="wrap html-transfer" aria-labelledby="html-transfer-title">
     <div><h2 id="html-transfer-title">儲存這本旅行手帖</h2><p>從預覽複製完整 HTML，貼進記事本並另存成 <code>index.html</code>，就能直接傳給同行的人。已匯入的照片會一起保留。</p></div>
@@ -1263,13 +1270,24 @@
       {id:'laview',text:'兌換西武一日券、另購 Laview 特急券',category:'prepare'},
       {id:'tax-refund',text:'確認新版退稅規定與退稅方式',category:'prepare'},
       {id:'offline-tickets',text:'離線保存機票、巴士乘車 QR 與重要聯絡資訊',category:'prepare'},
-      {id:'layers',text:'薄外套、圍巾，和好走的鞋',category:'packing'},
+      {id:'layers',text:'防風薄外套1件：穿身上或放隨身包',category:'packing'},
       {id:'medicine',text:'常備藥品',category:'packing'},
       {id:'charger',text:'充電器、行動電源、轉接頭',category:'packing'},
       {id:'gift',text:'給企鵝夫妻的小心意',category:'packing'},
-      {id:'rainwear',text:'摺疊傘或輕便雨衣',category:'packing'},
+      {id:'rainwear',text:'摺疊傘或輕便雨衣、行李防雨套',category:'packing'},
       {id:'water-bottle',text:'輕便水瓶，散步時記得補水',category:'packing'},
-      {id:'shopping-bag',text:'可折疊購物袋，裝麵包與伴手禮',category:'packing'}
+      {id:'shopping-bag',text:'可折疊購物袋，裝麵包與伴手禮',category:'packing'},
+      {"id": "tops", "text": "薄長袖上衣3件（含身上1件），可輪替穿", "category": "packing"},
+      {"id": "midlayers", "text": "薄針織／刷毛中層2件，挑可單穿或開襟款", "category": "packing"},
+      {"id": "trousers", "text": "舒適長褲2件（含身上1件）", "category": "packing"},
+      {"id": "underwear", "text": "內衣褲與襪子各5組（含身上），另備1雙乾襪", "category": "packing"},
+      {"id": "sleepwear", "text": "長袖薄睡衣1套", "category": "packing"},
+      {"id": "scarf", "text": "輕薄圍巾1條；怕冷可加薄手套", "category": "packing"},
+      {"id": "walking-shoes", "text": "已穿習慣、防滑好走的鞋1雙；有雨優先防潑水款", "category": "packing"},
+      {"id": "warm-extra", "text": "怕冷加帶：可壓縮薄羽絨或保暖背心1件", "category": "packing"},
+      {"id": "entry-form", "text": "查官方 Visit Japan Web；入境資料只留私人手機", "category": "prepare"},
+      {"id": "battery-rules", "text": "出發前核對星宇行動電源Wh標示、數量與攜帶規範", "category": "prepare"},
+      {"id": "food-import", "text": "買食品前核對台灣檢疫規定，尤其肉類、生鮮果蔬", "category": "prepare"}
     ];
     const icon = name => '<svg class="icon" aria-hidden="true"><use href="#i-' + name + '"/></svg>';
     const escapeHTML = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -1402,6 +1420,49 @@
       }
       return '<div class="central-routes" role="group" aria-label="晚餐後分線，左側企鵝跟麻，右側妹"><div class="central-fork-title"><span>18:15 左右，晚餐後開始分線</span></div><div class="split-route-headings"><div class="split-route-heading family-heading"><span>路線 A・左邊</span><h4 id="route-family-title">企鵝跟麻・池袋</h4><p>順路逛街，買完直接回去。</p></div><div class="split-route-heading sister-heading"><span>路線 B・右邊</span><h4 id="route-sister-title">妹・池袋西口</h4><p>18:45 左右報到，19:00 預約。</p></div></div><div class="center-branch-events">'+[...rows.entries()].sort((a,b)=>a[0]-b[0]).map(([minute,row])=>'<div class="split-event-row" data-minute="'+minute+'">'+card(row.family,family)+'<span class="split-axis-point" aria-hidden="true"></span>'+card(row.sister,sister)+'</div>').join('')+'</div></div>';
     }
+    // 活動型穿搭建議；取得可核實逐日預報前，不填入推測的氣溫或降雨數字。
+    const dailyOutfits = [
+  {
+    "place": "成田・池袋｜飛機、巴士與晚間步行",
+    "base": "薄長袖＋長褲，外搭一件容易穿脫的薄針織或棉質開襟衫。",
+    "outer": "防風薄外套放隨身包，抵達東京後和晚上出店再穿；搭機不要把所有保暖衣都托運。",
+    "carry": "圍巾、摺疊傘；鞋子選已穿習慣的運動鞋。",
+    "rain": "若抵達時有雨，改穿防潑水鞋；行李套與傘放最外層，晚餐後依原定兩條路線移動。"
+  },
+  {
+    "place": "飯能・宮澤湖｜早出門、湖邊與戶外候車",
+    "base": "薄長袖＋薄羊毛衫或刷毛中層，搭長褲；中層進室內可脫下收進小背包。",
+    "outer": "防風外套穿在外層；怕冷可加帶可壓縮薄羽絨或保暖背心，湖邊和等車時再加。",
+    "carry": "圍巾、傘、可裝外套的小背包；鞋底要防滑，雨天可多帶一雙襪子。",
+    "rain": "若有雨，縮短湖邊拍照，改以 KOKEMUS 展示與園內用餐為主；保留15:15往接駁站移動的時間。"
+  },
+  {
+    "place": "外苑・代代木公園・原宿｜兩段戶外散步",
+    "base": "薄長袖＋可脫的薄針織中層，搭長褲；暖一點的中午可先把中層收進背包。",
+    "outer": "防風薄外套隨身帶；早上外苑與午後樹蔭下再加，鞋子以久走不磨腳為主。",
+    "carry": "圍巾、摺疊傘，鞋子選已穿習慣、適合散步的款式。",
+    "rain": "若下雨，外苑與代代木各縮成近入口短線；保留 Tas Yard 午餐，提早轉往原宿室內店鋪。"
+  },
+  {
+    "place": "銀座・東京車站｜短程散步、商場與排隊",
+    "base": "薄長袖＋開襟衫或薄針織，搭長褲；以可以單獨穿進商場的一層為主。",
+    "outer": "帶容易收納的防風薄外套，進出商場再穿脫；伴手禮採購時避免手上還拿厚重外套。",
+    "carry": "摺疊購物袋、輕便背包、摺疊傘；17:00候位前把外套拿好。",
+    "rain": "若有雨，縮短日比谷公園，利用地下通道或短程計程車移動；16:00–18:00伴手禮時段維持不變。"
+  },
+  {
+    "place": "池袋・成田・桃園｜候車、航廈與搭機",
+    "base": "薄長袖＋舒適長褲，薄開襟衫隨身，選坐車和搭機都舒服的材質。",
+    "outer": "出門候車時穿防風外套；到航廈、機艙與回到桃園後再逐層調整。",
+    "carry": "換洗上衣1件留隨身包；護照、藥品、充電線別收進已托運的行李。",
+    "rain": "若清晨有雨，行李先套好防雨套並提早出門；不更動09:15機場巴士與原定回程航班。"
+  }
+];
+    function renderDailyOutfit(index){
+      const outfit=dailyOutfits[index];
+      const forecastURL='https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code='+(index===1?'110000':'130000');
+      return '<section class="day-notes outfit-card" aria-labelledby="outfit-title-'+index+'"><h4 id="outfit-title-'+index+'">'+icon('bag')+'今天怎麼穿</h4><p class="outfit-location">'+escapeHTML(outfit.place)+'</p><ul><li><strong>裡面穿</strong>　'+escapeHTML(outfit.base)+'</li><li><strong>外面加</strong>　'+escapeHTML(outfit.outer)+'</li><li><strong>隨身帶</strong>　'+escapeHTML(outfit.carry)+'</li></ul><details class="outfit-rain"><summary>如果下雨，這樣調整</summary><p>'+escapeHTML(outfit.rain)+'</p></details><p class="outfit-status">依活動安排的分層建議；11/7–11/11逐日氣溫與降雨預報尚未核實。出門前按實際氣溫增減。 <a href="'+forecastURL+'" target="_blank" rel="noopener noreferrer">'+(index===1?'飯能所在埼玉':'東京')+'氣象廳預報 ↗</a>'+([0,4].includes(index)?' · <a href="https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=120000" target="_blank" rel="noopener noreferrer">成田所在千葉預報 ↗</a>':'')+'</p></section>';
+    }
     function renderDay(index,animate=true){
       if(!days[index])return;
       activeDay=index;
@@ -1415,7 +1476,7 @@
       panel.innerHTML='<div class="day-header"><div><h3><span>'+escapeHTML(day.date)+'</span>'+escapeHTML(day.title)+'</h3><p class="day-subtitle">'+escapeHTML(day.subtitle)+'</p></div>'+icon(day.icon)+'</div>'+
         (day.alert?'<div class="day-alert">'+icon('info')+'<span>'+escapeHTML(day.alert)+'</span></div>':'')+
         (index===1?'<div class="departure-selector"><span>Laview 出發時間</span><div class="departure-options" role="group" aria-label="選擇11月8日週日 Laview 出發班次"><button type="button" class="plan-button departure-button" data-departure="0830" aria-pressed="'+(!isLate)+'">08:30・遊園較從容</button><button type="button" class="plan-button departure-button" data-departure="0930" aria-pressed="'+isLate+'">09:30・晚一班出發</button></div></div>':'')+
-        sharedHeading+(day.branches?renderSharedMorning(events):renderTimeline(events))+branches+(index===1?document.getElementById('seibu-return-guide').innerHTML+renderBusGuide():'')+
+        renderDailyOutfit(index)+sharedHeading+(day.branches?renderSharedMorning(events):renderTimeline(events))+branches+(index===1?document.getElementById('seibu-return-guide').innerHTML+renderBusGuide():'')+
         (index===3?'<div class="bus-sources"><a href="https://www.tokyoeki-1bangai.co.jp/shop/detail/?cd=000216" target="_blank" rel="noopener noreferrer">Gift Palette營業時間 ↗</a><a href="https://www.tokyoeki-1bangai.co.jp/shop/detail/?cd=000266" target="_blank" rel="noopener noreferrer">茶織屋現行櫃位 ↗</a></div>':'')+
         '<div class="day-notes"><h4>'+icon('heart')+'今天的小筆記</h4><ul>'+day.notes.map(note=>'<li>'+escapeHTML(note)+'</li>').join('')+'</ul></div><div class="timeline-footer">'+icon('info')+'依提供行程整理；營業、交通與航班資訊，出發前請再次核對。</div>';
       renderPlaces(day);
